@@ -58,9 +58,9 @@ if __name__ == '__main__':
     parser.add_argument('--cuda', type=int, default=0, choices=[0, 1], help='choose a cuda: 0 or 1')
     parser.add_argument('--seed', type=int, default=0, help='random seed')
     
-    parser.add_argument('--data_file', type=str, default='PDTB/Ji/data/', help='the file of data')
-    parser.add_argument('--log_file', type=str, default='PDTB/Ji/log/', help='the file of log')
-    parser.add_argument('--save_file', type=str, default='PDTB/Ji/saved_dict/', help='save model file')
+    parser.add_argument('--data_file', type=str, default='PDTB3/Ji/data/', help='the file of data')
+    parser.add_argument('--log_file', type=str, default='PDTB3/Ji/log/', help='the file of log')
+    parser.add_argument('--save_file', type=str, default='PDTB3/Ji/saved_dict/', help='save model file')
     
     ## model arguments
     parser.add_argument('--model_name_or_path', type=str, default='roberta-base', help='the name of pretrained model')
